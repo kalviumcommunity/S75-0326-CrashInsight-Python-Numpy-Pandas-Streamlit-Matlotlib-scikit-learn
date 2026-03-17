@@ -8,7 +8,7 @@ Data science does not begin with tools, algorithms, or models. It begins with a 
 
 ### Starting with a Clear Question
 
-A data science project starts by defining a clear and specific problem. Without a well-defined question, analyzing data becomes unfocused and may produce patterns that are not useful for decision-making.
+A data science project starts by defining a clear and specific problem. Without a well-defined question, analyzing data becomes unfocused and may produce patterns that are not useful for decision-making.   
 
 For example, asking **“What does the data show?”** is vague and does not guide analysis. A stronger question would be **“Which factors contribute most to road accidents?”**
 
