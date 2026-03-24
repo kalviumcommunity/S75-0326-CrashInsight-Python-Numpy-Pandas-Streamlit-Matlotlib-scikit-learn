@@ -152,3 +152,179 @@ records may affect the reliability of the analysis.
 
 Future work could include more detailed location analysis
 and additional visualizations to identify accident hotspots.
+
+# CrashInsight – Project Plan & MVP Definition
+
+## 1. Problem Statement
+
+Traffic police collect large amounts of accident data, but it is rarely analyzed to identify patterns such as road type, weather conditions, and time of day.
+
+As a result, preventive actions are not targeted, and accidents continue to occur.
+
+---
+
+## 2. Solution Overview
+
+CrashInsight aims to:
+
+* Analyze accident data
+* Identify high-risk conditions
+* Predict accident risk based on input factors
+
+The system will connect:
+
+Problem → Data → Model → Application
+
+Users will input conditions such as road type, weather, and time, and the system will output a predicted risk level.
+
+---
+
+## 3. Dataset & Scope
+
+### Dataset
+
+The dataset includes:
+
+* Road type (highway, intersection, residential)
+* Weather conditions (clear, rainy, foggy)
+* Time of day (morning, evening, night)
+* Accident severity
+* Location data
+
+### Scope
+
+Included:
+
+* Structured tabular data
+* Basic feature analysis
+* Classification model
+
+Excluded:
+
+* Image/video data
+* Real-time traffic systems
+* Complex deep learning models
+
+---
+
+## 4. MVP (Minimum Viable Product)
+
+The MVP will include:
+
+* Input:
+
+  * Road type
+  * Weather condition
+  * Time of day
+
+* Processing:
+
+  * Preprocessed dataset
+  * Machine learning classification model
+
+* Output:
+
+  * Accident Risk Level (Low / Medium / High)
+
+* Interface:
+
+  * Simple web app using Streamlit
+
+---
+
+## 5. Functional Requirements
+
+* Accept user inputs (road, weather, time)
+* Process inputs using trained ML model
+* Display predicted accident risk level
+* Show basic visual insights (charts)
+
+---
+
+## 6. Non-Functional Requirements
+
+* Fast response time (< 2 seconds)
+* Simple and user-friendly UI
+* Reliable predictions
+* Easy to maintain code structure
+
+---
+
+## 7. Roles & Responsibilities
+
+* Data Processing:
+  Data cleaning, preprocessing, feature selection
+
+* Modeling:
+  Model training, evaluation, tuning
+
+* Application:
+  Building UI using Streamlit and integrating model
+
+---
+
+## 8. Sprint Timeline (4 Weeks)
+
+Week 1:
+
+* Define problem clearly
+* Collect and clean dataset
+
+Week 2:
+
+* Perform EDA (Exploratory Data Analysis)
+* Identify important features
+
+Week 3:
+
+* Train ML model (Logistic Regression / Decision Tree)
+* Evaluate model performance
+
+Week 4:
+
+* Build Streamlit app
+* Integrate model into app
+* Testing and deployment
+
+---
+
+## 9. Success Metrics
+
+* Model accuracy ≥ 70%
+* App runs without crashes
+* Predictions are consistent
+* User can input data and get results successfully
+
+---
+
+## 10. Risks & Mitigation
+
+Risk: Poor data quality
+Mitigation: Perform data cleaning and validation
+
+Risk: Model performs poorly
+Mitigation: Try multiple models and tune parameters
+
+Risk: Time constraints
+Mitigation: Focus only on MVP features
+
+Risk: Incomplete dataset
+Mitigation: Use simplified assumptions and limit scope
+
+---
+
+## 11. Deployment Plan
+
+* Use Streamlit for frontend
+* Deploy using Streamlit Cloud / local server
+* Ensure app is accessible and functional
+
+---
+
+## 12. Final Outcome
+
+CrashInsight will be a working system that:
+
+* Takes real-world conditions as input
+* Uses data + ML to evaluate accident risk
+* Helps in making data-driven safety decisions
