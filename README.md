@@ -328,3 +328,74 @@ CrashInsight will be a working system that:
 * Takes real-world conditions as input
 * Uses data + ML to evaluate accident risk
 * Helps in making data-driven safety decisions
+
+
+
+# Environment Setup Documentation
+
+## 1. System Information
+
+* Operating System: Windows / Mac / Linux
+* Python Version: 3.x.x
+* Anaconda Version: x.x.x
+
+---
+
+## 2. Python Installation Verification
+
+Command used:
+
+python --version
+
+Output:
+
+Python 3.x.x
+
+Python was successfully installed and accessible via the terminal.
+
+---
+
+## 3. Anaconda Installation Verification
+
+Command used:
+
+conda --version
+
+Output:
+
+conda x.x.x
+
+Anaconda was installed successfully and Conda is accessible.
+
+---
+
+## 4. Environment Setup
+
+A new Conda environment was created:
+
+conda create -n crashinsight-env python=3.10
+
+Activated using:
+
+conda activate crashinsight-env
+
+---
+
+## 5. Environment Validation
+
+Python was tested using:
+
+python
+
+Basic script executed:
+
+print("Python is working")
+
+Output confirmed that Python is functioning correctly.
+
+---
+
+## 6. Conclusion
+
+The environment is successfully set up and ready for Data Science development,
+including data analysis, machine learning, and application development.
