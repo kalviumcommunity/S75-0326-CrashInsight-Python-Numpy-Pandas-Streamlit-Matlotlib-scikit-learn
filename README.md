@@ -399,3 +399,85 @@ Output confirmed that Python is functioning correctly.
 
 The environment is successfully set up and ready for Data Science development,
 including data analysis, machine learning, and application development.
+
+
+# Environment Verification
+
+## 1. System Information
+
+* Operating System: Windows
+* Python Version: 3.x.x
+* Conda Version: x.x.x
+* Environment Used: base / crashinsight-env
+
+---
+
+## 2. Python Verification
+
+Command:
+
+python --version
+
+Output:
+
+Python 3.x.x
+
+Python was successfully launched using the terminal and executed a test script.
+
+---
+
+## 3. Conda Verification
+
+Command:
+
+conda --version
+
+Output:
+
+conda x.x.x
+
+Environment list:
+
+conda info --envs
+
+The environment was activated successfully using:
+
+conda activate base
+
+The active environment was visible in the terminal.
+
+---
+
+## 4. Jupyter Verification
+
+Command:
+
+jupyter notebook
+
+Jupyter opened successfully in the browser.
+
+A new notebook was created and the following code was executed:
+
+print("Jupyter is working")
+
+Output:
+
+Jupyter is working
+
+---
+
+## 5. Environment Binding Verification
+
+Inside Jupyter:
+
+import sys
+print(sys.executable)
+
+The output confirmed that Jupyter is using the correct Conda environment.
+
+---
+
+## 6. Conclusion
+
+Python, Conda, and Jupyter are correctly installed, connected,
+and ready for Data Science development.
