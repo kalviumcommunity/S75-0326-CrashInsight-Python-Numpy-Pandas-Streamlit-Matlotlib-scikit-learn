@@ -481,3 +481,83 @@ The output confirmed that Jupyter is using the correct Conda environment.
 
 Python, Conda, and Jupyter are correctly installed, connected,
 and ready for Data Science development.
+
+# Jupyter Notebook Navigation & Setup
+
+## 1. Launching Jupyter
+
+Jupyter Notebook was launched from the project directory using:
+
+jupyter notebook
+
+The interface opened in the browser at:
+
+http://localhost:8888/tree
+
+---
+
+## 2. Understanding the Interface
+
+The Jupyter Home interface shows:
+
+* File and folder structure of the project
+* Navigation path at the top
+* Options to create new notebooks
+
+This represents the local file system.
+
+---
+
+## 3. Folder Navigation
+
+Folders were navigated by clicking through directories.
+
+The project folder was correctly visible, confirming Jupyter was launched from the correct location.
+
+---
+
+## 4. Creating a Notebook
+
+A new notebook was created using:
+
+New → Python 3
+
+The notebook was successfully opened.
+
+---
+
+## 5. Running a Notebook
+
+A test cell was executed:
+
+print("Jupyter working correctly")
+
+Output confirmed that the notebook runs successfully.
+
+---
+
+## 6. Kernel Verification
+
+The following was executed:
+
+import sys
+print(sys.executable)
+
+This confirmed that Jupyter is using the correct Python environment.
+
+---
+
+## 7. File Management
+
+The notebook was:
+
+* Renamed to test-notebook.ipynb
+* Saved successfully
+* Closed and reopened from the Home interface
+
+---
+
+## 8. Conclusion
+
+Jupyter Notebook is functioning correctly, and navigation,
+file management, and execution are working as expected.
