@@ -845,3 +845,64 @@ This one-directional flow ensures that results are reproducible and prevents acc
 ## Conclusion
 
 Separating data stages improves reliability, traceability, and maintainability of the project.
+
+
+# Python Script Execution
+
+## Overview
+
+A basic Python script was created to demonstrate data analysis outside of Jupyter Notebook.
+
+---
+
+## Script Location
+
+src/analysis.py
+
+---
+
+## Functionality
+
+The script performs the following:
+
+* Stores sample accident data
+* Calculates total and average accidents
+* Prints results to the console
+
+---
+
+## How to Run
+
+Command:
+
+python src/analysis.py
+
+---
+
+## Output
+
+Accident Data: [10, 20, 15, 30, 25]
+Total Accidents: 100
+Average Accidents: 20.0
+
+---
+
+## Script vs Notebook
+
+Scripts:
+
+* Run from top to bottom
+* Do not store state
+* Useful for automation and repeatable workflows
+
+Notebooks:
+
+* Interactive
+* Store state
+* Useful for exploration
+
+---
+
+## Conclusion
+
+Python scripts enable consistent and repeatable execution of data analysis tasks.
