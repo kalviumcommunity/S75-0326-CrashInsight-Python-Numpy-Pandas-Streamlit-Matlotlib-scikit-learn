@@ -609,3 +609,77 @@ Markdown cells → WHY it is executed
 ## Conclusion
 
 Using Code and Markdown cells correctly helps create notebooks that are readable, structured, and easy to understand.
+
+
+# Jupyter Kernel Management
+
+## 1. Understanding Kernel
+
+The Jupyter kernel is responsible for executing code and storing variables in memory.
+
+---
+
+## 2. Running Cells
+
+Cells were executed sequentially to observe how variables are stored and reused.
+
+Example:
+
+x = 10
+print(x)
+
+Subsequent cells were able to access the variable x, showing that the kernel retains state.
+
+---
+
+## 3. Restarting the Kernel
+
+The kernel was restarted using:
+
+Kernel → Restart Kernel
+
+After restarting, variables were cleared.
+
+Running:
+
+print(x)
+
+Resulted in an error because the variable was no longer defined.
+
+This demonstrates that restarting resets the notebook state.
+
+---
+
+## 4. Interrupting Execution
+
+A long-running loop was executed:
+
+while True:
+pass
+
+Execution was stopped using:
+
+Kernel → Interrupt Kernel
+
+The notebook remained responsive after interruption.
+
+---
+
+## 5. Restart vs Interrupt
+
+Interrupt:
+
+* Stops current execution
+* Does not clear variables
+
+Restart:
+
+* Clears all variables
+* Resets the notebook completely
+
+---
+
+## 6. Conclusion
+
+Proper kernel management ensures reproducibility,
+prevents hidden errors, and improves debugging efficiency.
