@@ -952,3 +952,64 @@ Example:
 ## Conclusion
 
 Understanding data types helps avoid errors and ensures correct program behavior.
+
+
+
+# Python Collections: Lists, Tuples, and Dictionaries
+
+## Overview
+
+This script demonstrates the use of Python’s core data structures: lists, tuples, and dictionaries.
+
+---
+
+## Lists
+
+Lists are ordered and mutable.
+
+* Can add, remove, and modify elements
+* Useful for dynamic data
+
+Example:
+
+[10, 20, 30]
+
+---
+
+## Tuples
+
+Tuples are ordered but immutable.
+
+* Cannot be modified after creation
+* Useful for fixed data
+
+Example:
+
+(10.5, 20.3)
+
+---
+
+## Dictionaries
+
+Dictionaries store data as key-value pairs.
+
+* Access values using keys
+* Useful for structured data
+
+Example:
+
+{"location": "Highway", "weather": "Rainy"}
+
+---
+
+## Key Differences
+
+* Lists → mutable and flexible
+* Tuples → immutable and safe
+* Dictionaries → key-based structured data
+
+---
+
+## Conclusion
+
+Choosing the correct data structure improves code clarity, safety, and maintainability.
