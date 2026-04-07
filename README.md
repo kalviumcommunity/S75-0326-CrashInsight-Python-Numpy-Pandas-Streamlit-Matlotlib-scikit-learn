@@ -1013,3 +1013,49 @@ Example:
 ## Conclusion
 
 Choosing the correct data structure improves code clarity, safety, and maintainability.
+
+
+# Conditional Statements in Python
+
+## Overview
+
+This script demonstrates the use of conditional statements to control program flow based on data.
+
+---
+
+## Basic if Statement
+
+The if statement executes code when a condition is true.
+
+Example:
+
+if accidents > 20:
+print("High accidents")
+
+---
+
+## if–else Statement
+
+Used to handle both true and false conditions.
+
+---
+
+## if–elif–else Statement
+
+Used when multiple conditions need to be checked.
+
+Only one block executes based on the condition.
+
+---
+
+## Logical Operators
+
+* and → all conditions must be true
+* or → at least one condition must be true
+* not → reverses a condition
+
+---
+
+## Conclusion
+
+Conditional statements allow programs to make decisions and handle different scenarios based on data.
