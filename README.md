@@ -561,3 +561,51 @@ The notebook was:
 
 Jupyter Notebook is functioning correctly, and navigation,
 file management, and execution are working as expected.
+
+
+# Understanding Code vs Markdown Cells
+
+## Overview
+
+This notebook demonstrates the difference between Code cells and Markdown cells in Jupyter Notebook.
+
+---
+
+## Code Cells
+
+Code cells are used to execute Python code.
+
+They:
+
+* Run computations
+* Produce outputs
+* Contain logic and operations
+
+Example:
+
+print("Hello World")
+
+---
+
+## Markdown Cells
+
+Markdown cells are used to explain and structure the notebook.
+
+They:
+
+* Provide descriptions and explanations
+* Use headings and formatting
+* Improve readability
+
+---
+
+## Key Difference
+
+Code cells → WHAT is executed
+Markdown cells → WHY it is executed
+
+---
+
+## Conclusion
+
+Using Code and Markdown cells correctly helps create notebooks that are readable, structured, and easy to understand.
