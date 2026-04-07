@@ -906,3 +906,49 @@ Notebooks:
 ## Conclusion
 
 Python scripts enable consistent and repeatable execution of data analysis tasks.
+
+
+# Python Data Types: Numeric and String
+
+## Overview
+
+This script demonstrates basic numeric and string data types in Python.
+
+---
+
+## Numeric Data Types
+
+* Integers represent whole numbers
+* Floats represent decimal numbers
+* Arithmetic operations include addition, subtraction, multiplication, and division
+
+---
+
+## String Data Types
+
+* Strings represent text data
+* Strings can be concatenated using the + operator
+
+---
+
+## Type Differences
+
+Python treats numbers and strings differently.
+
+Example:
+
+"10" + "5" → "105"
+10 + 5 → 15
+
+---
+
+## Type Conversion
+
+* int() converts string to number
+* str() converts number to string
+
+---
+
+## Conclusion
+
+Understanding data types helps avoid errors and ensures correct program behavior.
