@@ -792,3 +792,56 @@ project-root/
 
 This structure ensures clarity, reproducibility, and ease of collaboration,
 making the project easier to maintain and extend.
+
+
+# Data Organization
+
+## Overview
+
+This project separates data into raw, processed, and output stages to ensure clarity, reproducibility, and data integrity.
+
+---
+
+## Raw Data
+
+Location: data/raw/
+
+Raw data is the original dataset and is never modified.
+It is treated as read-only to preserve data integrity.
+
+---
+
+## Processed Data
+
+Location: data/processed/
+
+Processed data is derived from raw data through cleaning and transformation.
+This ensures that raw data remains unchanged.
+
+---
+
+## Output Artifacts
+
+Location: outputs/
+
+Outputs include:
+
+* figures/ → visualizations
+* models/ → trained models
+* reports/ → summaries
+
+Outputs are stored separately to avoid mixing with input data.
+
+---
+
+## Data Flow
+
+Raw Data → Processed Data → Outputs
+
+This one-directional flow ensures that results are reproducible and prevents accidental overwriting of original data.
+
+---
+
+## Conclusion
+
+Separating data stages improves reliability, traceability, and maintainability of the project.
