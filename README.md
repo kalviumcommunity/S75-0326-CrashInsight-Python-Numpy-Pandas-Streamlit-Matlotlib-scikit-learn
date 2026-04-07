@@ -683,3 +683,67 @@ Restart:
 
 Proper kernel management ensures reproducibility,
 prevents hidden errors, and improves debugging efficiency.
+
+
+
+# Markdown Usage in Jupyter Notebook
+
+## Overview
+
+This notebook demonstrates how Markdown is used to structure and explain content in Jupyter Notebooks.
+
+---
+
+## Headings
+
+Headings are used to organize content into sections and sub-sections.
+
+Example:
+
+# Main Heading
+
+## Sub Heading
+
+### Smaller Heading
+
+---
+
+## Lists
+
+Lists help present information clearly.
+
+Unordered list:
+
+* Item 1
+* Item 2
+
+Ordered list:
+
+1. Step 1
+2. Step 2
+
+---
+
+## Inline Code
+
+Inline code is used to reference functions or variables.
+
+Example: `print()`
+
+---
+
+## Code Blocks
+
+Code blocks are used to show code without executing it.
+
+Example:
+
+x = 10
+y = 20
+print(x + y)
+
+---
+
+## Conclusion
+
+Markdown improves readability, structure, and communication in notebooks, making them easier to understand and review.
