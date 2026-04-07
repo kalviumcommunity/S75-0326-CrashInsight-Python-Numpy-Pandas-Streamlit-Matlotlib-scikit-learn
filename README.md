@@ -747,3 +747,48 @@ print(x + y)
 ## Conclusion
 
 Markdown improves readability, structure, and communication in notebooks, making them easier to understand and review.
+
+
+# Project Folder Structure
+
+## Overview
+
+This project follows a structured layout to organize data, code, and outputs clearly.
+
+---
+
+## Folder Structure
+
+project-root/
+
+* data/
+
+  * raw/ → original datasets
+  * processed/ → cleaned data
+
+* notebooks/ → Jupyter notebooks for exploration
+
+* src/ → reusable Python scripts and functions
+
+* outputs/
+
+  * figures/ → visualizations
+  * models/ → trained models
+
+* reports/ → summaries and insights
+
+---
+
+## Design Principles
+
+* Raw data is never modified
+* Code, data, and outputs are separated
+* Folder names are simple and consistent
+* Structure supports scalability and collaboration
+
+---
+
+## Conclusion
+
+This structure ensures clarity, reproducibility, and ease of collaboration,
+making the project easier to maintain and extend.
